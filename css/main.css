@@ -16,14 +16,10 @@ ol > li {
   list-style-type: none;
 }
 
-img {
-  width: 100%;
-}
-
 a {
   font-family: "PT Sans", bold;
   color: #8f2440;
-  font-size: 1rem;
+  font-size: 1.14rem;
   text-decoration: none;
 }
 
@@ -33,8 +29,9 @@ a:hover {
 }
 
 figcaption {
-  font-family:"PT Serif";
+  font-family: "PT Serif";
   text-align: center;
+  font-weight: normal;
 }
 
 img {
@@ -44,14 +41,12 @@ img {
 
 blockquote {
   font-family: "PT Serif";
-  font-size:  1.5rem;
-}
-
+  font-size: 1.5rem;
 }
 
 .days {
   font-size: 1.5rem;
- }
+}
 
 p, ul, dl {
   color: #222;
