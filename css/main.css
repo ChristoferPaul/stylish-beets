@@ -5,20 +5,58 @@ html {
 
 h1 {
   font-family: "PT Sans", bold;
+  font-size: 1.5rem;
+  color: #3f1622;
+  font-weight: bolder;
+}
+
+ol > li {
+  font-family: "PT Sans", bold;
+  font-weight: bold;
+  list-style-type: none;
 }
 
 img {
   width: 100%;
 }
 
-nav a {
+a {
+  font-family: "PT Sans", bold;
   color: #8f2440;
+  font-size: 1rem;
+  text-decoration: none;
 }
 
-nav a:hover {
-  color: #3f1622
+a:hover {
+  color: #3f1622;
+  text-decoration: none;
+}
+
+figcaption {
+  font-family:"PT Serif";
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
 }
 
 blockquote {
-  font-family: "PT Serif", italic;
+  font-family: "PT Serif";
+  font-size:  1.5rem;
+}
+
+}
+
+.days {
+  font-size: 1.5rem;
+ }
+
+p, ul, dl {
+  color: #222;
+}
+
+footer {
+  font-size: .8rem;
 }
